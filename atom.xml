@@ -3,11 +3,11 @@
   <title>Maize&#39;s Blog</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="http://maizehsu.me/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="http://maizehsu.me/"/>
   <updated>2022-08-15T03:41:50.818Z</updated>
-  <id>http://example.com/</id>
+  <id>http://maizehsu.me/</id>
   
   <author>
     <name>Maize_hsu</name>
@@ -18,18 +18,18 @@
   
   <entry>
     <title>The Start of Everything</title>
-    <link href="http://example.com/2022/08/15/Start/"/>
-    <id>http://example.com/2022/08/15/Start/</id>
+    <link href="http://maizehsu.me/2022/08/15/Start/"/>
+    <id>http://maizehsu.me/2022/08/15/Start/</id>
     <published>2022-08-15T03:39:20.722Z</published>
     <updated>2022-08-15T03:41:50.818Z</updated>
     
     
     
     
-    <category term="Dailies" scheme="http://example.com/categories/Dailies/"/>
+    <category term="Dailies" scheme="http://maizehsu.me/categories/Dailies/"/>
     
     
-    <category term="随想" scheme="http://example.com/tags/%E9%9A%8F%E6%83%B3/"/>
+    <category term="随想" scheme="http://maizehsu.me/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
