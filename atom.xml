@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-08-14T16:33:31.637Z</updated>
+  <updated>2022-08-15T01:24:00.244Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Test</title>
+    <link href="http://example.com/2022/08/15/TOEFL/"/>
+    <id>http://example.com/2022/08/15/TOEFL/</id>
+    <published>2022-08-15T01:22:45.580Z</published>
+    <updated>2022-08-15T01:24:00.244Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="口语"><a href="#口语" class="headerlink" title="口语"></a>口语</h4><h6 id="前三个task"><a href="#前三个task" class="headerlink" title="前三个task"></a>前三个task</h6><p>15s&#x2F;20s 准备 45s&#x2F;1min 说, 因为准备<strong>时间很短</strong>，所以只写要说的几个reason中<strong>key points</strong></p><p>模板 </p><p><em>Yes&#x2F;no, I do&#x2F;don’t believe that … &#x2F;&#x2F;My preference for… is that…</em>(重复题干，语速<strong>慢一些</strong>声音<strong>大一些自信语调</strong>很重要)</p><p><em>and my reasons are listed as follows.</em></p><ul><li><p><em>The first reason is that…. In addition, … Finally I want to emphasize that…</em> (<em>Consequently</em>….(重复题目)有时间讲没时间拉倒)</p></li><li><p><em>For one thing, … For another…. Also it should be noted that….</em> (In conclusion…)</p></li></ul><p>如何避免卡壳：别用eh&#x2F;ah&#x2F;wu&#x2F;en，用<strong>yeah, well, like, you know, say</strong>, 补充自己观点用<strong>which inferred&#x2F; indicates (the idea that), namely…, In fact what I want to emphasize is…</strong></p><h6 id="最后一个task"><a href="#最后一个task" class="headerlink" title="最后一个task"></a>最后一个task</h6><p>概括lecture&#x2F; class，注意下多记点笔记，到时候对着笔记读就好</p><p>模板</p><p><em>The lecturer&#x2F;author came up with the idea that…\ concept of… He&#x2F;she first mentioned the significance&#x2F;phenomenon(from which he&#x2F;she concluded…)… Later he&#x2F;she claimed that… In addition&#x2F;However, … he&#x2F;she added&#x2F;raised a question(质疑) In conclusion, all of the above contributes to the lecturer&#x2F;author’s idea of…</em> </p><p>For quotation: <em>The lecturer&#x2F;author mentioned in his lecture&#x2F;text that …&#x2F;&#x2F; He&#x2F;she made a very good point such that…</em></p><p>注：这个模板也可以用于<strong>integrated writing</strong></p><h4 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h4><p><strong>背单词</strong>，多读长难句保证文章看懂没压力</p><p>考试别睡着</p><h4 id="听力"><a href="#听力" class="headerlink" title="听力"></a>听力</h4><p>多刷题，大概有idea都会问些啥问题</p><p>练速记笔记，记关键词和句子之间<strong>逻辑关系</strong>，用只要自己能看得懂的符号，<strong>中英结合</strong></p><h4 id="作文"><a href="#作文" class="headerlink" title="作文"></a>作文</h4><h6 id="Integrated-Writing"><a href="#Integrated-Writing" class="headerlink" title="Integrated Writing"></a>Integrated Writing</h6><p>见口语最后一个task</p><h6 id="大作文"><a href="#大作文" class="headerlink" title="大作文"></a>大作文</h6><p>30min 300+字，<strong>能多写尽量多写</strong></p><p>构思五分钟，记一下三个以上reason的key words(想不到点可以<strong>辩证</strong>)，马上开始码字</p><p>千万<strong>不能有语法句法错误</strong>，不确定拼写的词换掉</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;口语&quot;&gt;&lt;a href=&quot;#口语&quot; class=&quot;headerlink&quot; title=&quot;口语&quot;&gt;&lt;/a&gt;口语&lt;/h4&gt;&lt;h6 id=&quot;前三个task&quot;&gt;&lt;a href=&quot;#前三个task&quot; class=&quot;headerlink&quot; title=&quot;前三个task&quot;&gt;&lt;/</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Linux setup for Virtual Box</title>
