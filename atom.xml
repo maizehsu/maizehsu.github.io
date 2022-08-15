@@ -6,7 +6,7 @@
   <link href="https://maizehsu.me/atom.xml" rel="self"/>
   
   <link href="https://maizehsu.me/"/>
-  <updated>2022-08-15T14:05:09.266Z</updated>
+  <updated>2022-08-15T14:10:03.622Z</updated>
   <id>https://maizehsu.me/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux Setup (2) --- for Vm Ware</title>
+    <link href="https://maizehsu.me/2022/08/15/ubuntu_setup_for_vm/"/>
+    <id>https://maizehsu.me/2022/08/15/ubuntu_setup_for_vm/</id>
+    <published>2022-08-15T14:10:10.000Z</published>
+    <updated>2022-08-15T14:10:03.622Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="Setup"><a href="#Setup" class="headerlink" title="Setup"></a>Setup</h4><ul><li><p>安装vmware_tools，用vmware安装路径下的linux.iso作为光盘启动，解压并安装</p><p><code>sudo ./vmware-install.pl</code></p></li><li><p>查看共享文件夹</p><p><code>vmware-hgfsclient</code></p></li><li><p>如果mnt下没有文件夹，请用这个命令进行挂载</p><p><code>sudo vmhgfs-fuse .host:/ /mnt/ -o nonempty -o allow_other</code></p></li><li><p>换源</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cat /proc/version                     # Check version</span><br><span class="line">sudo apt install vim                 # Install vim</span><br><span class="line">sudo vim /etc/apt/sources.list</span><br><span class="line">sudo apt update                      # Update System</span><br><span class="line">sudo apt upgrade</span><br></pre></td></tr></table></figure></li></ul><h4 id="Environment"><a href="#Environment" class="headerlink" title="Environment"></a>Environment</h4><ul><li><p>Essential Packages</p><p><code>sudo apt install build-essential net-tools cmake git</code></p></li><li><p>Chinese Input</p><p>Update system to ubuntu 20.10 then install fcitx5</p></li><li><p>Config git and ssh</p><ul><li>Install ssh service:  &#96;sudo apt install openssh-client openssh-server&#96;&#96;</li><li><code>sudo service ssh restart</code></li><li><code>ssh-keygen</code></li><li>Upload to github and check with <code>ssh -T git@github.com</code></li></ul></li><li><p>zsh</p><ul><li><p><code>sudo apt install zsh</code></p></li><li><p><code>git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh</code></p></li><li><p><code>cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc</code></p></li><li><p><code>chsh -s /bin/zsh</code></p></li><li><p><code>reboot</code></p></li><li><p>Go to <code>~/.zshrc</code> and personalize yourself</p></li></ul></li></ul><h4 id="Theme"><a href="#Theme" class="headerlink" title="Theme"></a>Theme</h4><ul><li><p>Install gnome</p><p><code>sudo apt-get install -y gnome-tweaks gnome-shell-extensions gnome-tweak-tool</code></p></li><li><p>Uninstall ubuntu dock</p><p><code>sudo apt-get autoremove --purge gnome-shell-extension-ubuntu-dock -y</code></p></li><li><p>Download dash to dock</p><p><code>wget https://extensions.gnome.org/review/download/12397.shell-extension.zip</code></p></li><li><p>Unzip to folder <code>dash-to-dock@micxgx.gmail.com</code> and move to</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir .local/share/gnome-shell/extensions/</span><br><span class="line">mv dash-to-dock@micxgx.gmail.com .local/share/gnome-shell/extensions/</span><br></pre></td></tr></table></figure><p>then open tweak and turn on Application menu, Dash to dok and Desktop icons. Reboot.</p></li><li><p>Download theme and icon package</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">wget https://github.com/vinceliuice/vimix-gtk-themes/archive/master.zip</span><br><span class="line">wget https://github.com/vinceliuice/vimix-icon-theme/archive/master.zip</span><br><span class="line">unzip vimix-gtk-themes-master.zip</span><br><span class="line">unzip vimix-icon-theme-master.zip</span><br><span class="line">sudo mv vimix-gtk-themes-master /usr/share/themes/</span><br><span class="line">sudo mv vimix-icon-theme-master /usr/share/icons/</span><br><span class="line">cd /usr/share/themes/vimix-gtk-themes-master/</span><br><span class="line">./install.sh</span><br><span class="line">cd /usr/share/icons/vimix-icon-theme-master/</span><br><span class="line">./install.sh</span><br></pre></td></tr></table></figure></li><li><p><code>Reboot</code></p></li></ul><h4 id="Apps"><a href="#Apps" class="headerlink" title="Apps"></a>Apps</h4><ul><li><p>Monitor system resources usage</p><p><code>sudo apt install indicator-multiload</code></p></li><li><p>Display matrix rain</p></li></ul><p>  <code>sudo apt install cmatrix</code></p><ul><li><p>Vscode</p><p><code>sudo install snap &amp; snap install code</code></p></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;Setup&quot;&gt;&lt;a href=&quot;#Setup&quot; class=&quot;headerlink&quot; title=&quot;Setup&quot;&gt;&lt;/a&gt;Setup&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;安装vmware_tools，用vmware安装路径下的linux.iso作为光盘启动，解压并安装</summary>
+      
+    
+    
+    
+    <category term="Tech" scheme="https://maizehsu.me/categories/Tech/"/>
+    
+    
+    <category term="Config" scheme="https://maizehsu.me/tags/Config/"/>
+    
+    <category term="笔记" scheme="https://maizehsu.me/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="补档" scheme="https://maizehsu.me/tags/%E8%A1%A5%E6%A1%A3/"/>
+    
+    <category term="自查" scheme="https://maizehsu.me/tags/%E8%87%AA%E6%9F%A5/"/>
+    
+    <category term="Bash" scheme="https://maizehsu.me/tags/Bash/"/>
+    
+    <category term="Linux" scheme="https://maizehsu.me/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>Linux Setup (1) --- for Virtual Box</title>
