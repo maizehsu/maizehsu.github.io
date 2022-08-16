@@ -118,6 +118,7 @@ body.night .navbar-main .navbar-menu .navbar-item.is-active {
   color: #3273dc;
 }
 body.night .navbar,
+body.night .navbar-menu,
 body.night .card {
   background-color: rgba(40,44,52,0.5);
   backdrop-filter: none;
@@ -473,6 +474,7 @@ body.night .twikoo code {
     color: #3273dc;
   }
   body:not(.light) .navbar,
+  body:not(.light) .navbar-menu,
   body:not(.light) .card {
     background-color: rgba(40,44,52,0.5);
     backdrop-filter: none;
