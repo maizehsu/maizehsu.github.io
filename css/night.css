@@ -302,7 +302,7 @@ body.night .tag:not(body) {
   color: #c0c0c0;
   background-color: #373d48;
 }
-body.night .widget .menu-list .tags .tag:first-child,
+body.night .widget .tags .tag:first-child,
 body.night .tag.is-grey {
   background-color: #434a56;
 }
@@ -658,7 +658,7 @@ body.night .utterances code {
     color: #c0c0c0;
     background-color: #373d48;
   }
-  body:not(.light) .widget .menu-list .tags .tag:first-child,
+  body:not(.light) .widget .tags .tag:first-child,
   body:not(.light) .tag.is-grey {
     background-color: #434a56;
   }
