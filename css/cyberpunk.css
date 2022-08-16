@@ -11807,9 +11807,6 @@ body.night .textarea {
   background-color: #434a56;
   border-color: #373d48;
 }
-body.night .control.has-icon-left.is-expanded {
-  color: #c0c0c0;
-}
 body.night .button {
   background-color: #373d48;
   color: #c0c0c0;
@@ -12027,12 +12024,9 @@ body.night input:-webkit-autofill {
   -webkit-text-fill-color: #c0c0c0 !important;
   box-shadow: 0 0 0px 1000px #373d48 inset;
 }
-body.night .twikoo pre {
-  background-color: #373d48;
-}
-body.night .twikoo code {
-  color: #cbba7d;
-  background-color: #373d48;
+body.night input:-webkit-placeholder {
+  -webkit-text-fill-color: #c0c0c0 !important;
+  box-shadow: 0 0 0px 1000px #373d48 inset;
 }
 @media (prefers-color-scheme: dark) {
   body:not(.light) {
@@ -12175,9 +12169,6 @@ body.night .twikoo code {
   body:not(.light) .textarea {
     background-color: #434a56;
     border-color: #373d48;
-  }
-  body:not(.light) .control.has-icon-left.is-expanded {
-    color: #c0c0c0;
   }
   body:not(.light) .button {
     background-color: #373d48;
@@ -12396,12 +12387,9 @@ body.night .twikoo code {
     -webkit-text-fill-color: #c0c0c0 !important;
     box-shadow: 0 0 0px 1000px #373d48 inset;
   }
-  body:not(.light) .twikoo pre {
-    background-color: #373d48;
-  }
-  body:not(.light) .twikoo code {
-    color: #cbba7d;
-    background-color: #373d48;
+  body:not(.light) input:-webkit-placeholder {
+    -webkit-text-fill-color: #c0c0c0 !important;
+    box-shadow: 0 0 0px 1000px #373d48 inset;
   }
 }
 body {
