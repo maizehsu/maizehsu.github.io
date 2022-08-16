@@ -151,25 +151,30 @@ body.night .control.has-icon-left.is-expanded {
 }
 body.night .button.is-primary,
 body.night .button.is-light,
-body.night .button.is-small {
+body.night .button.is-small,
+body.night .button {
   background-color: #373d48;
   color: #c0c0c0;
 }
 body.night .button.is-primary:hover,
 body.night .button.is-light:hover,
 body.night .button.is-small:hover,
+body.night .button:hover,
 body.night .button.is-primary.is-hovered,
 body.night .button.is-light.is-hovered,
-body.night .button.is-small.is-hovered {
+body.night .button.is-small.is-hovered,
+body.night .button.is-hovered {
   color: #fff;
   background-color: #434a56;
 }
 body.night .button.is-primary:active,
 body.night .button.is-light:active,
 body.night .button.is-small:active,
+body.night .button:active,
 body.night .button.is-primary.is-active,
 body.night .button.is-light.is-active,
-body.night .button.is-small.is-active {
+body.night .button.is-small.is-active,
+body.night .button.is-active {
   color: #fff;
   background-color: #2c313a;
 }
@@ -514,25 +519,30 @@ body.night .twikoo code {
   }
   body:not(.light) .button.is-primary,
   body:not(.light) .button.is-light,
-  body:not(.light) .button.is-small {
+  body:not(.light) .button.is-small,
+  body:not(.light) .button {
     background-color: #373d48;
     color: #c0c0c0;
   }
   body:not(.light) .button.is-primary:hover,
   body:not(.light) .button.is-light:hover,
   body:not(.light) .button.is-small:hover,
+  body:not(.light) .button:hover,
   body:not(.light) .button.is-primary.is-hovered,
   body:not(.light) .button.is-light.is-hovered,
-  body:not(.light) .button.is-small.is-hovered {
+  body:not(.light) .button.is-small.is-hovered,
+  body:not(.light) .button.is-hovered {
     color: #fff;
     background-color: #434a56;
   }
   body:not(.light) .button.is-primary:active,
   body:not(.light) .button.is-light:active,
   body:not(.light) .button.is-small:active,
+  body:not(.light) .button:active,
   body:not(.light) .button.is-primary.is-active,
   body:not(.light) .button.is-light.is-active,
-  body:not(.light) .button.is-small.is-active {
+  body:not(.light) .button.is-small.is-active,
+  body:not(.light) .button.is-active {
     color: #fff;
     background-color: #2c313a;
   }
