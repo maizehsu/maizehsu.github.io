@@ -353,10 +353,10 @@ body.night input:-webkit-autofill {
   -webkit-text-fill-color: #c0c0c0 !important;
   box-shadow: 0 0 0px 1000px #373d48 inset;
 }
-body.night .twikoo pre {
+body.night .utterances pre {
   background-color: #373d48;
 }
-body.night .twikoo code {
+body.night .utterances code {
   color: #cbba7d;
   background-color: #373d48;
 }
@@ -709,10 +709,10 @@ body.night .twikoo code {
     -webkit-text-fill-color: #c0c0c0 !important;
     box-shadow: 0 0 0px 1000px #373d48 inset;
   }
-  body:not(.light) .twikoo pre {
+  body:not(.light) .utterances pre {
     background-color: #373d48;
   }
-  body:not(.light) .twikoo code {
+  body:not(.light) .utterances code {
     color: #cbba7d;
     background-color: #373d48;
   }
