@@ -152,7 +152,7 @@ body.night .control.has-icon-left.is-expanded {
 body.night .button {
   background-color: #373d48;
   color: #c0c0c0;
-  border-color: #434a56;
+  border-color: #373d48;
 }
 body.night .button.is-primary,
 body.night .button.is-light,
@@ -520,7 +520,7 @@ body.night .twikoo code {
   body:not(.light) .button {
     background-color: #373d48;
     color: #c0c0c0;
-    border-color: #434a56;
+    border-color: #373d48;
   }
   body:not(.light) .button.is-primary,
   body:not(.light) .button.is-light,
