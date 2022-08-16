@@ -181,6 +181,7 @@ body.night .button.is-small.is-active {
 body.night .button.is-white,
 body.night .button.is-transparent {
   background-color: transparent;
+  border-color: transparent;
 }
 body.night .button.is-white:hover,
 body.night .button.is-transparent:hover {
@@ -549,6 +550,7 @@ body.night .twikoo code {
   body:not(.light) .button.is-white,
   body:not(.light) .button.is-transparent {
     background-color: transparent;
+    border-color: transparent;
   }
   body:not(.light) .button.is-white:hover,
   body:not(.light) .button.is-transparent:hover {
