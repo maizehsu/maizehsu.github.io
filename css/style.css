@@ -11637,23 +11637,6 @@ figure.highlight.foldable div.level-left {
   text-decoration: none !important;
   background-color: #276cda;
 }
-@media screen and (min-width: 1280px) {
-  .is-1-column .container,
-  .is-2-column .container {
-    max-width: 960px;
-    width: 960px;
-  }
-}
-@media screen and (min-width: 1472px) {
-  .is-2-column .container {
-    max-width: 1152px;
-    width: 1152px;
-  }
-  .is-1-column .container {
-    max-width: 960px;
-    width: 960px;
-  }
-}
 @media screen and (min-width: 769px), print {
   .is-sticky {
     position: -webkit-sticky;
@@ -11794,6 +11777,7 @@ body.night .navbar-main .navbar-menu .navbar-item.is-active {
   color: #3273dc;
 }
 body.night .navbar,
+body.night .navbar-menu,
 body.night .card {
   background-color: rgba(40,44,52,0.5);
   backdrop-filter: none;
@@ -12149,6 +12133,7 @@ body.night .twikoo code {
     color: #3273dc;
   }
   body:not(.light) .navbar,
+  body:not(.light) .navbar-menu,
   body:not(.light) .card {
     background-color: rgba(40,44,52,0.5);
     backdrop-filter: none;
