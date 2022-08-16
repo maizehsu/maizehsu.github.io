@@ -11911,9 +11911,8 @@ body.night .textarea,
 body.night .button.is-white,
 body.night .button.is-transparent,
 body.night .article-licensing,
-body.night .v * {
-  color: #c0c0c0;
-}
+body.night .v *,
+body.night color: dark-font-color,
 body.night .media-content,
 body.night .has-text-grey,
 body.night .link-muted {
@@ -12011,13 +12010,6 @@ body.night ::-moz-selection {
 body.night input:-webkit-autofill {
   -webkit-text-fill-color: #c0c0c0 !important;
   box-shadow: 0 0 0px 1000px #373d48 inset;
-}
-body.night .twikoo pre {
-  background-color: #373d48;
-}
-body.night .twikoo code {
-  color: #cbba7d;
-  background-color: #373d48;
 }
 @media (prefers-color-scheme: dark) {
   body:not(.light) {
@@ -12267,9 +12259,8 @@ body.night .twikoo code {
   body:not(.light) .button.is-white,
   body:not(.light) .button.is-transparent,
   body:not(.light) .article-licensing,
-  body:not(.light) .v * {
-    color: #c0c0c0;
-  }
+  body:not(.light) .v *,
+  body:not(.light) color: dark-font-color,
   body:not(.light) .media-content,
   body:not(.light) .has-text-grey,
   body:not(.light) .link-muted {
@@ -12367,12 +12358,5 @@ body.night .twikoo code {
   body:not(.light) input:-webkit-autofill {
     -webkit-text-fill-color: #c0c0c0 !important;
     box-shadow: 0 0 0px 1000px #373d48 inset;
-  }
-  body:not(.light) .twikoo pre {
-    background-color: #373d48;
-  }
-  body:not(.light) .twikoo code {
-    color: #cbba7d;
-    background-color: #373d48;
   }
 }
