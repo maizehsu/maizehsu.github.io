@@ -12024,9 +12024,8 @@ body.night input:-webkit-autofill {
   -webkit-text-fill-color: #c0c0c0 !important;
   box-shadow: 0 0 0px 1000px #373d48 inset;
 }
-body.night input:-webkit-placeholder {
-  -webkit-text-fill-color: #c0c0c0 !important;
-  box-shadow: 0 0 0px 1000px #373d48 inset;
+body.night input::placeholder {
+  color: #c0c0c0 !important;
 }
 @media (prefers-color-scheme: dark) {
   body:not(.light) {
@@ -12387,9 +12386,8 @@ body.night input:-webkit-placeholder {
     -webkit-text-fill-color: #c0c0c0 !important;
     box-shadow: 0 0 0px 1000px #373d48 inset;
   }
-  body:not(.light) input:-webkit-placeholder {
-    -webkit-text-fill-color: #c0c0c0 !important;
-    box-shadow: 0 0 0px 1000px #373d48 inset;
+  body:not(.light) input::placeholder {
+    color: #c0c0c0 !important;
   }
 }
 body {
