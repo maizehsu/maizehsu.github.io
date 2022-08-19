@@ -11982,6 +11982,12 @@ body.night .widget .tags .tag:first-child,
 body.night .tag.is-grey {
   background-color: #434a56;
 }
+body.night .widget .tags .tag:first-child {
+  color: #c0c0c0;
+}
+body.night .widget .tags .tag:last-child {
+  color: $white-invert;
+}
 body.night .menu-list a:hover {
   background-color: #373d48;
 }
@@ -12341,6 +12347,12 @@ body.night input::placeholder {
   body:not(.light) .widget .tags .tag:first-child,
   body:not(.light) .tag.is-grey {
     background-color: #434a56;
+  }
+  body:not(.light) .widget .tags .tag:first-child {
+    color: #c0c0c0;
+  }
+  body:not(.light) .widget .tags .tag:last-child {
+    color: $white-invert;
   }
   body:not(.light) .menu-list a:hover {
     background-color: #373d48;
