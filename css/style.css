@@ -10762,6 +10762,9 @@ body > .section {
   overflow: visible;
   border-radius: 4px;
 }
+.card:hover {
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.1);
+}
 .card + .card,
 .card + .column-right-shadow {
   margin-top: 1.5rem;
@@ -11352,6 +11355,9 @@ figure.highlight.foldable div.level-left {
 .widget .menu-list li ul {
   margin-right: 0;
 }
+.widget .menu-list a {
+  transition: background-color 0.3s ease-in-out;
+}
 .widget .menu-list .level {
   margin-bottom: 0;
 }
@@ -11369,11 +11375,11 @@ figure.highlight.foldable div.level-left {
   color: $white-invert;
 }
 .widget .tags .tag:first-child {
-  background: #3273dc;
-  color: #fff;
+  background: #f5f5f5;
+  color: #4a4a4a;
 }
 .widget .tags .tag:last-child {
-  background: $light-grey;
+  background: #e7e7e7;
   color: $white-invert;
 }
 .level.is-multiline {
