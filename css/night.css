@@ -137,9 +137,6 @@ body.night .footer {
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
 }
-body.night .footer:hover {
-  background-color: rgba(40,44,52,0.8);
-}
 body.night .footer:before {
   background-color: rgba(40,44,52,0.5);
 }
@@ -500,9 +497,6 @@ body.night input::placeholder {
     background-color: rgba(40,44,52,0.5);
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
-  }
-  body:not(.light) .footer:hover {
-    background-color: rgba(40,44,52,0.8);
   }
   body:not(.light) .footer:before {
     background-color: rgba(40,44,52,0.5);
