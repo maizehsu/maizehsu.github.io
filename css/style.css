@@ -11388,6 +11388,8 @@ figure.highlight.foldable div.level-left {
     right: 0;
     bottom: 0;
     z-index: 100;
+    max-height: calc(100vh - 22px);
+    overflow-y: scroll;
   }
   .widget.card#toc .card-content {
     padding: 0;
@@ -11793,7 +11795,6 @@ body.night .card .breadcrumb li.is-active a {
   color: #c0c0c0;
 }
 body.night .footer {
-  background-color: rgba(40,44,52,0.5);
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
 }
@@ -12154,7 +12155,6 @@ body.night input::placeholder {
     color: #c0c0c0;
   }
   body:not(.light) .footer {
-    background-color: rgba(40,44,52,0.5);
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
   }
