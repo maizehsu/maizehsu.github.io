@@ -10,4 +10,4 @@ jobs:
           node-version: 14
       - run: npm install && npm install -g @lhci/cli@0.8.x
       - run: npm run build
-      - run: lhci autorun --url https://maizehsu.me
+      - run: lhci autorun --staticDistDir 2022/
