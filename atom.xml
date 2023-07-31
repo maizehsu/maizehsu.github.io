@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Maize&#39;s Blog</title>
+  <title>Mai&#39;s Blog</title>
   
   
   <link href="https://maizehsu.me/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://maizehsu.me/</id>
   
   <author>
-    <name>Maize_hsu</name>
+    <name>Mai Xu</name>
     
   </author>
   
@@ -58,9 +58,9 @@
     
     <category term="笔记" scheme="https://maizehsu.me/tags/%E7%AC%94%E8%AE%B0/"/>
     
-    <category term="Config" scheme="https://maizehsu.me/tags/Config/"/>
-    
     <category term="Icarus" scheme="https://maizehsu.me/tags/Icarus/"/>
+    
+    <category term="Config" scheme="https://maizehsu.me/tags/Config/"/>
     
   </entry>
   
@@ -131,13 +131,13 @@
     <category term="English" scheme="https://maizehsu.me/categories/Dailies/English/"/>
     
     
+    <category term="补档" scheme="https://maizehsu.me/tags/%E8%A1%A5%E6%A1%A3/"/>
+    
     <category term="托福" scheme="https://maizehsu.me/tags/%E6%89%98%E7%A6%8F/"/>
     
     <category term="申请" scheme="https://maizehsu.me/tags/%E7%94%B3%E8%AF%B7/"/>
     
     <category term="语言" scheme="https://maizehsu.me/tags/%E8%AF%AD%E8%A8%80/"/>
-    
-    <category term="补档" scheme="https://maizehsu.me/tags/%E8%A1%A5%E6%A1%A3/"/>
     
   </entry>
   
@@ -162,9 +162,9 @@
     
     <category term="笔记" scheme="https://maizehsu.me/tags/%E7%AC%94%E8%AE%B0/"/>
     
-    <category term="Config" scheme="https://maizehsu.me/tags/Config/"/>
-    
     <category term="Icarus" scheme="https://maizehsu.me/tags/Icarus/"/>
+    
+    <category term="Config" scheme="https://maizehsu.me/tags/Config/"/>
     
   </entry>
   
@@ -187,15 +187,15 @@
     <category term="Algorithm" scheme="https://maizehsu.me/categories/Tech/Algorithm/"/>
     
     
-    <category term="笔记" scheme="https://maizehsu.me/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="补档" scheme="https://maizehsu.me/tags/%E8%A1%A5%E6%A1%A3/"/>
-    
     <category term="Leetcode" scheme="https://maizehsu.me/tags/Leetcode/"/>
     
     <category term="秋招" scheme="https://maizehsu.me/tags/%E7%A7%8B%E6%8B%9B/"/>
     
+    <category term="笔记" scheme="https://maizehsu.me/tags/%E7%AC%94%E8%AE%B0/"/>
+    
     <category term="自查" scheme="https://maizehsu.me/tags/%E8%87%AA%E6%9F%A5/"/>
+    
+    <category term="补档" scheme="https://maizehsu.me/tags/%E8%A1%A5%E6%A1%A3/"/>
     
   </entry>
   
