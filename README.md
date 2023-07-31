@@ -1,3 +1,3 @@
-## Maize’s Blog
+## Mai’s Blog
 
-Hi, welcome to Maize’s Blog!
+Hi, welcome to Mai’s Blog!
